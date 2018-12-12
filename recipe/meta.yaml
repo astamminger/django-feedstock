@@ -31,6 +31,7 @@ requirements:
 test:
   requires:
     - gdal 2.2.*
+    - libtiff <4.0.9
     - pytz
   imports:
     - django
